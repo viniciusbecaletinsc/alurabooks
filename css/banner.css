@@ -1,0 +1,55 @@
+.banner {
+  background: var(--blue-gradient);
+  color: var(--white);
+}
+
+.banner .container {
+  text-align: center;
+  padding: 2rem 1.5rem;
+}
+
+.banner__title {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner__description {
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.banner__search {
+  border: 1px solid var(--white);
+  border-radius: 24px;
+  padding: 0.625rem 1rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.banner__search div {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+}
+
+.banner__search input {
+  width: 100%;
+  max-width: 25ch;
+
+  border: none;
+  background: transparent;
+  color: var(--white);
+} 
+
+.banner__search input::placeholder {
+  color: var(--white);
+  opacity: 1;
+}
+
+.banner__search input:focus {
+  outline: none;
+}

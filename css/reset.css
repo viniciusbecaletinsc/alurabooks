@@ -1,0 +1,35 @@
+:root {
+  --background: #ebecee;
+  --white: #ffffff;
+  --orange: #eb9b00;
+  --blue-gradient: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, select, textarea, button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+}
+
+body {
+  background-color: var(--background);
+}

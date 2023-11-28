@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 100%;
+}
+
 body, input, select, textarea, button {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
@@ -33,4 +37,10 @@ img {
 
 body {
   background-color: var(--background);
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 87.5%;
+  }
 }

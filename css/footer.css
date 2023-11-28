@@ -1,0 +1,7 @@
+.footer {
+  border-top: 1px solid var(--gray);
+}
+
+.footer .container {
+  padding: 1.5rem;
+}

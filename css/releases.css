@@ -1,0 +1,89 @@
+.releases header {
+  background: var(--white);
+  padding-block: 1.25rem 0.5rem;
+  text-align: center;
+}
+
+.releases header h2 {
+  color: var(--orange);
+  font-size: 1.125rem;
+  text-transform: uppercase;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.swiper-pagination {
+  position: initial;
+  margin-block: 0.5rem 0.75rem;
+}
+
+.recommendation {
+  padding: 1rem;
+  margin: 1rem 1.5rem;
+  background: var(--white);
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.recommendation__description span {
+  font-weight: 700;
+  color: var(--orange);
+}
+
+.recommendation__description h3 {
+  color: var(--blue);
+  margin-block: 0.5rem;
+}
+
+.recommendation__description p {
+  font-size: 0.875rem;
+}
+
+.recommendation__picture img {
+  width: 100%;
+}
+
+.recommendation__actions {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.recommendation__actions button {
+  background: transparent;
+  border: none;
+  line-height: 0;
+}
+
+.recommendation__more a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+  padding: 0.75rem 1rem;
+  background: var(--orange);
+}
+
+@media (min-width: 480px) {
+  .recommendation {
+    grid-template-columns: 1fr 9.5rem;
+    grid-template-rows: 1fr 3rem;
+  }
+}

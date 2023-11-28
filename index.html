@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AluraBook</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -71,10 +75,66 @@
     </div>
   </section>
 
-  <section class="carrossel">
+  <section class="releases">
+    <header>
+      <h2>Últimos lançamentos</h2>
+    </header>
+    
     <div class="container">
+      <div class="swiper">
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/apache-kafka.svg" alt="Capa do livro Apache Kafka e Spring Boot">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/portugol.svg" alt="Capa do livro Lógica de Programação com Portugol">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/tuning-sql.svg" alt="Capa do livro Tuning de SQL">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/guia-front-end.svg" alt="Capa do livro Guia Front-End">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/acessibilidade.svg" alt="Capa do livro Acessibilidade na Web">
+          </div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
       
+      <div class="recommendation">
+        <div class="recommendation__description">
+          <span>Talvez você também se interesse por...</span>
+          <h3>Angular 11 e Firebase</h3>
+          <p>Construindo uma aplicação integrada com a plataforma do Google.</p>
+        </div>
+
+        <div class="recommendation__picture">
+          <img src="img/angular.svg" alt="">
+        </div>
+
+        <div class="recommendation__actions">
+          <button type="button">
+            <img src="img/favoritos.svg" alt="">
+          </button>
+
+          <button type="button">
+            <img src="img/compras.svg" alt="">
+          </button>
+        </div>
+
+        <div class="recommendation__more">
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
     </div>
   </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/swiper.js"></script>
 </body>
 </html>

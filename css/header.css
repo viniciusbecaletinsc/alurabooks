@@ -20,8 +20,15 @@
   padding: 0.5rem;
 }
 
+.header__left .text-logo {
+  display: none;
+
+  font-size: 1.875rem;
+}
+
 .menu-mobile {
   display: none;
+  list-style: none;
 }
 
 .menu__checkbox {
@@ -90,6 +97,16 @@
 }
 
 .header__nav {
+  display: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header__nav a {
+  text-transform: uppercase;
+}
+
+.header__nav-mobile {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -97,14 +114,34 @@
   margin-right: 1.5rem;
 }
 
-.header__nav a {
+.header__nav-mobile a {
   padding: 0.5rem;
   line-height: 0;
 }
 
 @media (min-width: 864px) {
+  .header {
+    padding-block: 1.125rem;
+  }
+
   .header .container {
     max-width: 864px;
     margin-inline: auto;
+  }
+
+  .header__left label {
+    display: none;
+  }
+
+  .header__left .text-logo {
+    display: block;
+  }
+
+  .header__nav {
+    display: flex;
+  }
+
+  .header__nav-mobile a:nth-child(1) {
+    display: none;
   }
 }

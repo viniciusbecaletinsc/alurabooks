@@ -13,7 +13,10 @@
 
 .news h4 {
   font-weight: 500;
-  color: var(--blue-gradient);
+  background: var(--blue-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
 }
@@ -51,6 +54,9 @@
 }
 
 .news div input::placeholder {
-  color: var(--blue-gradient);
+  background: var(--blue-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   opacity: 1;
 }

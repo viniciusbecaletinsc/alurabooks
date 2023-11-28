@@ -4,6 +4,7 @@
   --orange: #eb9b00;
   --blue: #002F52;
   --blue-gradient: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+  --gray: #858585;
 }
 
 * {

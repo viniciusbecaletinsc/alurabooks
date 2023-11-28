@@ -50,11 +50,16 @@
 .menu-mobile__item a {
   display: inline-block;
   padding: 1rem 1.5rem;
+  width: 100%;
   text-transform: uppercase;
   background: var(--blue-gradient);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.menu-mobile__item:hover  {
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .menu__hamburger {

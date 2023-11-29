@@ -9,6 +9,9 @@
   flex-direction: column;
   align-items: start;
   gap: 1.5rem;
+
+  max-width: 48rem;
+  margin-inline: auto;
 }
 
 .news h4 {
@@ -59,4 +62,16 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 1;
+}
+
+@media (min-width: 680px) {
+  .news .container {
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem 1.5rem;
+  }
+
+  .news form {
+    max-width: 21rem;
+  }
 }

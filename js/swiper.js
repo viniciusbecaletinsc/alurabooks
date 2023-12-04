@@ -1,4 +1,5 @@
 const swiper = new Swiper('.swiper', {
+  effect: "cards",
   spaceBetween: 20,
   slidesPerView: 2,
   centeredSlides: true,

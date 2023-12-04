@@ -14,6 +14,7 @@
   width: 100%;
   max-width: 50rem;
   height: auto;
+  overflow: hidden;
 }
 
 .swiper-slide img {
